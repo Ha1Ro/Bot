@@ -1,4 +1,1 @@
-aiogram
-sqlite3
-logging
-asyncio
+aiogram==3.27.0
