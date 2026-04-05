@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import sqlite3
+import os
 
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import (
@@ -13,7 +14,7 @@ from aiogram.types import (
 )
 from aiogram.filters import Command
 
-TOKEN = "8675971570:AAG-j39zbGTACNWOH858w7v-okAbvNNri3E"
+TOKEN = os.getenv("8675971570:AAG-j39zbGTACNWOH858w7v-okAbvNNri3E")
 
 # ---------------- LOGGING ----------------
 
